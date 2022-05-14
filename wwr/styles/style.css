@@ -1,0 +1,47 @@
+.content {
+  max-width: 1600px;
+  margin: auto;
+}
+div.a {
+  text-align: center;
+}
+body {
+  background-color: #52796F;
+  color: black;
+}
+h1 {
+  background-color: #DD6E42;
+  color: white;
+}
+nav a:hover {
+  background-color: black;
+  color: #d9c2a3;
+}    
+.icon {
+  width: 80px;
+}
+nav a {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+}    
+.book:hover {
+  background-color: black;
+  color: #d9c2a3;  
+}
+.book {
+  color:#fcfbfb;
+  text-decoration: none;
+}
+footer {
+  background-color: #84A98C;
+  color: white;
+}
+h3:hover {
+  background-color: black;
+  color: #d9c2a3;
+}
+h3 {
+  color:#fcfbfb;
+  text-decoration: none;
+}
