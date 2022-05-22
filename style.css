@@ -1,0 +1,36 @@
+
+.r_rectangle {
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 5%;
+  background-color: rgb(214, 23, 23);
+}
+ .b_rectangle {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10%;
+    background-color: rgb(26, 23, 214);
+ }
+ .g_rectangle {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 12%;
+    background-color: rgb(83, 214, 23);
+ }
+ h1 {
+     font-size: small;
+     text-align: center;
+ }
+ h2{
+     font-size: small;
+     text-align:center;
+ }
+ h3{
+     font-size: small;
+     text-align: center;
+ }
+ .purple {
+     float:left;
+     height: 50px;
+     background-color: blueviolet;
+ }

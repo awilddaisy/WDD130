@@ -1,17 +1,25 @@
+@import url(https://www.cssfontstack.com/Candara);
 .content {
   max-width: 1600px;
   margin: auto;
+  padding:5px
 }
 div.a {
   text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
   background-color: #52796F;
   color: black;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 22px
 }
 h1 {
   background-color: #DD6E42;
   color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  margin: 0;
 }
 nav a:hover {
   background-color: black;
@@ -19,23 +27,38 @@ nav a:hover {
 }    
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 nav a {
   text-align: center;
   color: #fcfbfb;
   text-decoration: none;
+  padding: 35px;
 }    
 .book:hover {
   background-color: black;
   color: #d9c2a3;  
+  font-family:'Times New Roman', Times, serif;
+  font-size: 2em;
 }
 .book {
   color:#fcfbfb;
   text-decoration: none;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 2em;
+  padding: 35px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 footer {
   background-color: #84A98C;
   color: white;
+  font: size 0.8em;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+.social {
+  padding-top: 15px;
 }
 h3:hover {
   background-color: black;
@@ -44,4 +67,23 @@ h3:hover {
 h3 {
   color:#fcfbfb;
   text-decoration: none;
+}
+.home-grid {
+  margin: 200px 0;
+}
+.rivers {
+  margin: 200px 0;
+  border: 10px solid black;
+}
+.camping {
+  margin: 200px 0;
+  border: 10px solid black;
+}
+.rapids {
+  margin: 200px 0;
+  border: 10px solid black;
+  border-radius: 2px;
+}
+.card-image {
+  border: 10px solid black;
 }
