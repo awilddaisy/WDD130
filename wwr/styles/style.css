@@ -282,7 +282,8 @@ display: block;
 -o-animation: fadeIn 0.5s ease-out;
 animation: fadeIn 0.5s ease-out;
 }
-@-webkit-keyframes fadeIn {
+
+@keyframes fadeIn {
   0% {
   display: none;
   opacity: 0;
