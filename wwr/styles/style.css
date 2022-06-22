@@ -211,3 +211,22 @@ transform: scale(1.1);
       margin-top: 25px;
   }
 }
+
+.accordion{
+font-size: large;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+align-content: center;
+}
+.panel {
+font-size: smaller;
+}
+.h10 {
+background-color: #DD6E42;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+margin: auto;
+width: 60%;
+border: 3px solid #73AD21;
+padding: 10px;
+
+}
