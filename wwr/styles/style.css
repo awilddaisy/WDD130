@@ -1,4 +1,5 @@
 @import url(https://www.cssfontstack.com/Candara);
+
 .content {
   max-width: 1600px;
   margin: auto;
@@ -230,3 +231,69 @@ border: 3px solid #73AD21;
 padding: 10px;
 
 }
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.hidecontent {
+  display: none;
+}
+
+#myaccordion label {
+box-shadow:0 0 20px #d4d4d4;
+display: block;    
+padding: 8px 22px;
+margin: 20px 0px 1px 0px;
+background: #84A98C;
+color: #FFF;
+transition: ease .5s;
+}
+#myaccordion label:hover {
+background: #354F52;
+}
+.content {
+box-shadow:0 0 20px #d4d4d4;
+background: #ffff;
+padding: 10px 25px;
+border: 1px solid #d4d4d4;
+margin: -1 0 0 0;
+}
+#myaccordion input:checked + label + .content {
+display: block;
+    -webkit-animation: fadeIn 0.5s ease-out;
+-moz-animation: fadeIn 0.5s ease-out;
+-o-animation: fadeIn 0.5s ease-out;
+animation: fadeIn 0.5s ease-out;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+  display: none;
+  opacity: 0;
+}
+  1% {
+  display: block;
+  opacity: 0;
+}
+  100% {
+  display: block;
+  opacity: 1;
+}
+    }
+
