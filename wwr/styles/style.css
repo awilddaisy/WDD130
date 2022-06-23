@@ -7,7 +7,7 @@
 }
 header {
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: 200px auto;
 }
 nav{
   display: center;
@@ -213,45 +213,6 @@ transform: scale(1.1);
   }
 }
 
-.accordion{
-font-size: large;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-align-content: center;
-}
-.panel {
-font-size: smaller;
-}
-.h10 {
-background-color: #DD6E42;
-color: white;
-font-family: 'Times New Roman', Times, serif;
-margin: auto;
-width: 60%;
-border: 3px solid #73AD21;
-padding: 10px;
-
-}
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-.active, .accordion:hover {
-  background-color: #ccc;
-}
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
-
 .hidecontent {
   display: none;
 }
@@ -259,7 +220,7 @@ padding: 10px;
 #myaccordion label {
 box-shadow:0 0 20px #d4d4d4;
 display: block;    
-padding: 8px 22px;
+padding: 10px 22px;
 margin: 20px 0px 1px 0px;
 background: #84A98C;
 color: #FFF;
@@ -298,3 +259,22 @@ animation: fadeIn 0.5s ease-out;
 }
     }
 
+.picture-section {
+  background-image: url('/wwr/images/faq_river.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 450px;
+  margin-top: -150px;
+}
+
+#myTitle {
+  background-color: lightblue;
+  color: black;
+  padding: 20px;
+  position:absolute;
+  right: 430px;
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
