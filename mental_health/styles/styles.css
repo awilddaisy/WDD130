@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Happy+Monkey&family=League+Spartan:wght@300&family=Spline+Sans:wght@300&display=swap');
+@import url('https://coolors.co/6bab90-f9e784-81523f-fb9f89-c6ebbe');
+
+:root {
+    --primary-color: #6bab90;
+    --secondary-color: #f9e784;
+    --accent1-color: #81523f;
+    --accent2-color: #c6ebbe;
+}  
+body {
+    background-color: #C6EbbE
+}
+.header {
+    padding: 35px;
+    text-align: center;
+    background-color: #6bab90;
+    color: white;
+    font-size: 30px;
+}
+.logo {
+    width:200px;
+    height:275px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.quote {
+    font-size: 18px;
+}
+.intro {
+    font-size: 25px;
+    text-align: center;
+    border: 10px solid white;
+}
+.orange_flowers { 
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    top: auto;
+    right: auto;
+}
+footer {
+    text-align: center;
+    padding: 0;
+    background-color: #81523f;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+.nav {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9e784;
+    color: black;
+    font-size: 30px;
+    float: right;
+    width: 70%;
+}
+h2 {
+    padding: 15px;
+    text-align: center;
+    background-color: #81523f;
+    color: white;
+    font-size: 30px;
+    float: right;
+    width: 70%;
+}
+.believe {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 15%;
+}
