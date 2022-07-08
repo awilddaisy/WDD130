@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Happy+Monkey&family=League+Spartan:wght@300&family=Spline+Sans:wght@300&display=swap');
+@import url('https://coolors.co/6bab90-f9e784-81523f-fb9f89-c6ebbe');
+
+:root {
+    --primary-color: #6bab90;
+    --secondary-color: #f9e784;
+    --accent1-color: #81523f;
+    --accent2-color: #c6ebbe;
+}  
+:root {
+font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Spline Sans', sans-serif;
+font-family: 'Happy Monkey';
+}
+body {
+    background-color: #C6EbbE
+}
+.header {
+    padding: 35px;
+    text-align: center;
+    background-color: #6bab90;
+    color: white;
+    font-size: 30px;
+    font-family: 'Happy Monkey';
+}
+.logo {
+    width:200px;
+    height:275px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.quote {
+    font-size: 18px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
