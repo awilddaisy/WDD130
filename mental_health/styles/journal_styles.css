@@ -50,14 +50,14 @@ input[type=text], select, textarea {
     resize: vertical;
 }  
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #6bab90;
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
 }
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #4a836b;
 }
 .container {
     border-radius: 5px;
@@ -70,3 +70,37 @@ input[type=submit]:hover {
       margin-top: 0;
     }
   }
+.button {
+    background-color: #81523f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.button:hover {
+    background-color: #9c5f46;
+}
+.btn-group button {
+    background-color: #f9e784; /* Green background */
+    background-color: #f9e784; /* Green background */
+    border: 1px solid ; /* Green border */
+    color: black; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+  
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+  
+  /* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #ffe23b;
+}
