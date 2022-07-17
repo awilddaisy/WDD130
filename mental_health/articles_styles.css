@@ -6,16 +6,19 @@
     --secondary-color: #f9e784;
     --accent1-color: #81523f;
     --accent2-color: #c6ebbe;
-}  
-:root {
-font-family: 'Carrois Gothic SC', sans-serif;
-font-family: 'League Spartan', sans-serif;
-font-family: 'Spline Sans', sans-serif;
-font-family: 'Happy Monkey';
 }
+
+:root {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+    font-family: 'Happy Monkey';
+}
+
 body {
     background-color: #C6EbbE
 }
+
 .header {
     padding: 10px;
     text-align: center;
@@ -24,63 +27,96 @@ body {
     font-size: 30px;
     font-family: 'Happy Monkey';
 }
+
 .logo {
-    width:200px;
-    height:275px;
+    width: 200px;
+    height: 275px;
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
+
 .quote {
-    font-size: 18px;
+    font-size: 10px;
+    font-weight: light;
 }
+
 footer {
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #6bab90;
-   color: white;
-   text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6bab90;
+    color: white;
+    text-align: center;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-  }
-  * {
-    box-sizing: border-box;
-  }
-body {
     margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
     font-family: Arial;
-  }
+}
+
 .header {
     text-align: center;
     padding: 32px;
-  }
+}
+
 .column {
     float: left;
     width: 50%;
     padding: 10px;
-  }
-  .column img {
+}
+
+.column img {
     margin-top: 12px;
     float: left;
-    width:  100px;
+    width: 100px;
     object-fit: cover;
-  }
+}
+
 .row:after {
     content: "";
     display: table;
     clear: both;
-  }
-/* .synopsis {
+}
+
+.synopsis {
     font-family: 'League Spartan', sans-serif;
     text-align: center;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin:0 20%;
+}
+.synopsisImg img {
+    height: 90%;
+    margin:5%;
 }
 .synopsisImg {
-    float: left;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
 }
-.textBox {
-    float: right;
-} */
+.link {
+    position: relative;
+    display: flex;
+}
+.text{
+    width: calc(100% - 300px);
+}
+h1{
+    text-align: center;
+}
+h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
