@@ -6,18 +6,21 @@
     --secondary-color: #f9e784;
     --accent1-color: #81523f;
     --accent2-color: #c6ebbe;
-}  
-:root {
-font-family: 'Carrois Gothic SC', sans-serif;
-font-family: 'League Spartan', sans-serif;
-font-family: 'Spline Sans', sans-serif;
-font-family: 'Happy Monkey';
 }
+
+:root {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+    font-family: 'Happy Monkey';
+}
+
 body {
     background-color: #C6EbbE
 }
+
 .header {
-    padding: 35px;
+    padding: 10px;
     text-align: center;
     background-color: #6bab90;
     color: white;
@@ -34,73 +37,21 @@ body {
 .quote {
     font-size: 18px;
 }
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6bab90;
+    color: white;
+    text-align: center;
+}
 .intro {
     font-size: 25px;
     text-align: center;
     border: 10px solid white;
     font-family: 'Spline Sans', sans-serif;
-    font:bolder;
+    font: bolder;
 }
-.orange_flowers { 
-    width: 550px;
-    height: 400px;
-    position: absolute;
-    top: auto;
-    right: auto;
-}
-.footer {
-    text-align: center;
-    padding: 0;
-    background-color: #81523f;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-.footer:hover {
-    background-color: #6f7364;
-    color: #d9c2a3;
-}
-h3 a {
-    display: block;
-    padding: 8px;
-    background-color:#c6ebbe
-}
-h3 {
-    float: left;
-}
-.nav {
-    padding: 20px;
-    text-align: center;
-    background-color: #f9e784;
-    color: black;
-    font-size: 30px;
-    float: right;
-    width: 70%;
-}
-h2 {
-    padding: 15px;
-    text-align: center;
-    background-color: #81523f;
-    color: white;
-    font-size: 30px;
-    float: right;
-    width: 70%;
-}
-.believe {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    margin-left: 30%;
-    margin-top: 15%;
-}
-.bundle {
-    font-family: 'Spline Sans', sans-serif;
+h1 {
+    font-weight: light;
 }

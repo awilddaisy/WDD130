@@ -38,7 +38,6 @@ body {
 
 .quote {
     font-size: 10px;
-    font-weight: light;
 }
 
 footer {
@@ -64,10 +63,6 @@ body {
     font-family: Arial;
 }
 
-.header {
-    text-align: center;
-    padding: 32px;
-}
 
 .column {
     float: left;
@@ -114,6 +109,7 @@ body {
 }
 h1{
     text-align: center;
+    font-weight:lighter;
 }
 h3 {
     position: absolute;
