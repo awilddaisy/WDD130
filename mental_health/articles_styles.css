@@ -107,9 +107,9 @@ body {
 .text{
     width: calc(100% - 300px);
 }
-h1{
-    text-align: center;
-    font-weight:lighter;
+h1 {
+    font-weight: light;
+    text-align:center;
 }
 h3 {
     position: absolute;
@@ -131,4 +131,8 @@ h4 {
 }
 p {
     font-size:18px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    
 }
